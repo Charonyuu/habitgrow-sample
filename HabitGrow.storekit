@@ -1,0 +1,35 @@
+{
+  "identifier": "7B2F4C10",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "60",
+      "familyShareable": false,
+      "internalID": "6746100001",
+      "localizations": [
+        {
+          "description": "Unlimited habits, all island themes, additional widgets, yearly heatmap and alternate app icons. One-time purchase.",
+          "displayName": "Habit Grow Pro",
+          "locale": "en_US"
+        },
+        {
+          "description": "不限數量習慣、全部小島主題、更多小工具、年度熱圖與替換 App 圖示。一次買斷。",
+          "displayName": "Habit Grow Pro",
+          "locale": "zh_Hant"
+        }
+      ],
+      "productID": "com.charonyuu.habitgrow.pro",
+      "referenceName": "Habit Grow Pro",
+      "type": "NonConsumable"
+    }
+  ],
+  "settings": {
+    "_locale": "zh_TW",
+    "_storefront": "TWN"
+  },
+  "subscriptionGroups": [],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

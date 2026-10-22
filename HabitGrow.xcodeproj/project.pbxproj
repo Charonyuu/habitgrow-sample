@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027D49E618517B96CDA9045D /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2BA8A7134E3701AB20668 /* L10n.swift */; };
+		07159855B6DE7FCE43547940 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCE8BF706A3DFD72F8F29D0 /* Theme.swift */; };
+		0A762C4E81F2E1A771EC968F /* Plants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF7B9D6989E38561CD0DA9 /* Plants.swift */; };
+		0F3EAAF37ACDCC01B856BE4D /* Loc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE617A48D70F81050571EF7 /* Loc.swift */; };
+		1170998139665BFE2FACAB87 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A83BC42C03F42471DE50CAB /* MonthView.swift */; };
+		149C9820542CAC7A56B10E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3AE94AEAB484E73DCF78EE /* Assets.xcassets */; };
+		17B39EAE7B260F53A82CA5D1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDF0EF6B5C079DBB5E3083 /* Models.swift */; };
+		184FA9EBB7E78E2634051C9A /* TownLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B75645C2062702E8419797 /* TownLevel.swift */; };
+		1B615FEC795B415BD13A7DFB /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521020E045EBEB42285ED90E /* Widgets.swift */; };
+		2776D13E7124E5B1BF9692E1 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4B6ECDFA132544BE1417A /* RootView.swift */; };
+		2F5399149A334E0001E77F0D /* YearHeatmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0103389E1DC591B6CC24BB /* YearHeatmap.swift */; };
+		3164F5B55C617D8758525182 /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA016B3B4962D64F7AA1D4B /* Notifier.swift */; };
+		39D4EEDAE346D65AC0B78071 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BA957316A8AA8F122F4389 /* Components.swift */; };
+		452DC2C9EB6FE13DD01EAF2C /* HabitGrowWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 38481D532D1B6C345AE55DFD /* HabitGrowWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		47224931E57D313134296BD8 /* TownLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7A905F79F89F9F327B5CD6 /* TownLayout.swift */; };
+		52EC4A0CB6110ABC5D92BE70 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DBC225F14ADCA215596748 /* Stats.swift */; };
+		55F967DC2860687C5BB842CD /* TownArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636973C9160408B477E4368 /* TownArt.swift */; };
+		57281CA48C49F2A17D3D538A /* ReorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1203B0E11477DB8118C72117 /* ReorderView.swift */; };
+		5949E014F8A5037155E2B1F4 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DBC225F14ADCA215596748 /* Stats.swift */; };
+		5BCB9FFA189AD830DB21765C /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D030C3955B5A53F1C5F71 /* MainListView.swift */; };
+		65D39AB78CAD053119262200 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BA957316A8AA8F122F4389 /* Components.swift */; };
+		68284A9F638E24CCD63FAC25 /* Intents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3147B0FAEEA88A8D337072 /* Intents.swift */; };
+		77896931E3E5F25935B455AD /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81F2E1F2F7684FEC815E8E /* WeekView.swift */; };
+		7E446193826E43F5FA4A9C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85077B3394DD721A2A39CDC5 /* Assets.xcassets */; };
+		7E5BC6620B207CDE92464557 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F929F12E81F955E6EC36409A /* SettingsView.swift */; };
+		82BC3ED1B5BDB17549835FFA /* Loc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE617A48D70F81050571EF7 /* Loc.swift */; };
+		8A068FF76F6387C995DFBC6A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCE8BF706A3DFD72F8F29D0 /* Theme.swift */; };
+		8A291262BD15929FA58BC8C2 /* AppIcon-source.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3C86965835B084B42BF013C8 /* AppIcon-source.svg */; };
+		8EFDBEACA64648D79185BE34 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D14D7CB300441F10C454C3 /* PaywallView.swift */; };
+		A451DC79A492ED669D1FCE14 /* HabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B496A78E182B1607CDDAC123 /* HabitDetailView.swift */; };
+		AB40BE45C6504C857DA9EAF2 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDF0EF6B5C079DBB5E3083 /* Models.swift */; };
+		BB76AD3A99680F527320AA5D /* TownLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B75645C2062702E8419797 /* TownLevel.swift */; };
+		BBA9EC598A169558CAE9DAAA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AE2E7517DDA68BB70184DF6D /* PrivacyInfo.xcprivacy */; };
+		C0C0A97ECB36EDD9F123AEFF /* TownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241EC7DDF641FA628EEA61D0 /* TownView.swift */; };
+		C3FAF6BF7E6AF74304EF1964 /* Plants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF7B9D6989E38561CD0DA9 /* Plants.swift */; };
+		C85EE5BFD53D520C18C69F45 /* TownSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A9A53B7A0B16025496EDF5 /* TownSnapshot.swift */; };
+		C88E8B6C523FFC454AEF096D /* HabitEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61473BB8C76A08C1A0BB5565 /* HabitEditView.swift */; };
+		C99BAD5E56CF41F6617D7DBB /* TownToys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC23DDAB30460DC2F400DE1 /* TownToys.swift */; };
+		CC881827C5F1EE9E19A271DD /* Town3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE33C9794625F37B3AF2BE64 /* Town3DView.swift */; };
+		D3CFC2E9ACD370085D7F4B9A /* ProStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435D6A7C981D87BF9405083 /* ProStore.swift */; };
+		E90C841405E4C7A8B0CEDA26 /* TownWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04AF006E6CC8F5D5E681691 /* TownWorld.swift */; };
+		E9161377D94F21EDFBDBD0B2 /* HabitGrowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB440153D1F54CE697583B /* HabitGrowApp.swift */; };
+		EA0863EA01A170CA6AEB8E3E /* TownSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C231943ED297457C093E720A /* TownSnapshotStore.swift */; };
+		F24D8928625377D5EE6DFCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3AE94AEAB484E73DCF78EE /* Assets.xcassets */; };
+		F9028A39D2425F555D09ADEE /* Intents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3147B0FAEEA88A8D337072 /* Intents.swift */; };
+		F939367D979CADB350B0BA18 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2BA8A7134E3701AB20668 /* L10n.swift */; };
+		FA49C7F6BD27251DFBB07F4A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AE2E7517DDA68BB70184DF6D /* PrivacyInfo.xcprivacy */; };
+		FBE1F2CA2B315F738E80D8B4 /* TownSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C231943ED297457C093E720A /* TownSnapshotStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56D67BD5E30FD1E7B98668DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0C2461A27B4E5FADB7F2EF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7DC88A5DE2D4C97630401A6;
+			remoteInfo = HabitGrowWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2288D563E8F5DC8FCC8A977 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				452DC2C9EB6FE13DD01EAF2C /* HabitGrowWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1203B0E11477DB8118C72117 /* ReorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderView.swift; sourceTree = "<group>"; };
+		19EDF0EF6B5C079DBB5E3083 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1CCE8BF706A3DFD72F8F29D0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		22D14D7CB300441F10C454C3 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		241EC7DDF641FA628EEA61D0 /* TownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownView.swift; sourceTree = "<group>"; };
+		2636973C9160408B477E4368 /* TownArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownArt.swift; sourceTree = "<group>"; };
+		28BA957316A8AA8F122F4389 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		38481D532D1B6C345AE55DFD /* HabitGrowWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = HabitGrowWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A83BC42C03F42471DE50CAB /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		3C3147B0FAEEA88A8D337072 /* Intents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intents.swift; sourceTree = "<group>"; };
+		3C86965835B084B42BF013C8 /* AppIcon-source.svg */ = {isa = PBXFileReference; path = "AppIcon-source.svg"; sourceTree = "<group>"; };
+		4FD8D7A837284509619856D8 /* HabitGrowWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HabitGrowWidget.entitlements; sourceTree = "<group>"; };
+		521020E045EBEB42285ED90E /* Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgets.swift; sourceTree = "<group>"; };
+		5CA016B3B4962D64F7AA1D4B /* Notifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
+		61473BB8C76A08C1A0BB5565 /* HabitEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitEditView.swift; sourceTree = "<group>"; };
+		7B0103389E1DC591B6CC24BB /* YearHeatmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearHeatmap.swift; sourceTree = "<group>"; };
+		80C043B885D9AC5BBECE9186 /* HabitGrow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HabitGrow.entitlements; sourceTree = "<group>"; };
+		85077B3394DD721A2A39CDC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB4B6ECDFA132544BE1417A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		97F2BA8A7134E3701AB20668 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		9A9D030C3955B5A53F1C5F71 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		9B81F2E1F2F7684FEC815E8E /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		9CE617A48D70F81050571EF7 /* Loc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loc.swift; sourceTree = "<group>"; };
+		AE2E7517DDA68BB70184DF6D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		AE33C9794625F37B3AF2BE64 /* Town3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town3DView.swift; sourceTree = "<group>"; };
+		B496A78E182B1607CDDAC123 /* HabitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailView.swift; sourceTree = "<group>"; };
+		BB3AE94AEAB484E73DCF78EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCAB440153D1F54CE697583B /* HabitGrowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitGrowApp.swift; sourceTree = "<group>"; };
+		BEDF7B9D6989E38561CD0DA9 /* Plants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plants.swift; sourceTree = "<group>"; };
+		C0DBC225F14ADCA215596748 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		C231943ED297457C093E720A /* TownSnapshotStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownSnapshotStore.swift; sourceTree = "<group>"; };
+		C7F91F8E1BB207F6A1E66B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CC7A905F79F89F9F327B5CD6 /* TownLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownLayout.swift; sourceTree = "<group>"; };
+		E435D6A7C981D87BF9405083 /* ProStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProStore.swift; sourceTree = "<group>"; };
+		E6A9A53B7A0B16025496EDF5 /* TownSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownSnapshot.swift; sourceTree = "<group>"; };
+		EEC23DDAB30460DC2F400DE1 /* TownToys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownToys.swift; sourceTree = "<group>"; };
+		F04AF006E6CC8F5D5E681691 /* TownWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownWorld.swift; sourceTree = "<group>"; };
+		F0B75645C2062702E8419797 /* TownLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownLevel.swift; sourceTree = "<group>"; };
+		F929F12E81F955E6EC36409A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FEA57688D080E389F22CD033 /* HabitGrow.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HabitGrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0447859A0D6A7BE0382E6C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA57688D080E389F22CD033 /* HabitGrow.app */,
+				38481D532D1B6C345AE55DFD /* HabitGrowWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C7187738EA17305E8397F39 /* Town3D */ = {
+			isa = PBXGroup;
+			children = (
+				AE33C9794625F37B3AF2BE64 /* Town3DView.swift */,
+				EEC23DDAB30460DC2F400DE1 /* TownToys.swift */,
+				F04AF006E6CC8F5D5E681691 /* TownWorld.swift */,
+			);
+			path = Town3D;
+			sourceTree = "<group>";
+		};
+		3DCD99743C19CA76DBE95DA1 /* Town */ = {
+			isa = PBXGroup;
+			children = (
+				2636973C9160408B477E4368 /* TownArt.swift */,
+				CC7A905F79F89F9F327B5CD6 /* TownLayout.swift */,
+				E6A9A53B7A0B16025496EDF5 /* TownSnapshot.swift */,
+				241EC7DDF641FA628EEA61D0 /* TownView.swift */,
+			);
+			path = Town;
+			sourceTree = "<group>";
+		};
+		485638131C28D1B75C097D1D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3C86965835B084B42BF013C8 /* AppIcon-source.svg */,
+				85077B3394DD721A2A39CDC5 /* Assets.xcassets */,
+				80C043B885D9AC5BBECE9186 /* HabitGrow.entitlements */,
+				BCAB440153D1F54CE697583B /* HabitGrowApp.swift */,
+				5CA016B3B4962D64F7AA1D4B /* Notifier.swift */,
+				E435D6A7C981D87BF9405083 /* ProStore.swift */,
+				3DCD99743C19CA76DBE95DA1 /* Town */,
+				3C7187738EA17305E8397F39 /* Town3D */,
+				BBD67E2AA53DFB8B745A135D /* Views */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		89CC3B8E571040AF6D2BF028 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BB3AE94AEAB484E73DCF78EE /* Assets.xcassets */,
+				28BA957316A8AA8F122F4389 /* Components.swift */,
+				3C3147B0FAEEA88A8D337072 /* Intents.swift */,
+				97F2BA8A7134E3701AB20668 /* L10n.swift */,
+				9CE617A48D70F81050571EF7 /* Loc.swift */,
+				19EDF0EF6B5C079DBB5E3083 /* Models.swift */,
+				BEDF7B9D6989E38561CD0DA9 /* Plants.swift */,
+				AE2E7517DDA68BB70184DF6D /* PrivacyInfo.xcprivacy */,
+				C0DBC225F14ADCA215596748 /* Stats.swift */,
+				1CCE8BF706A3DFD72F8F29D0 /* Theme.swift */,
+				F0B75645C2062702E8419797 /* TownLevel.swift */,
+				C231943ED297457C093E720A /* TownSnapshotStore.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A3053D4020B4086B66523E56 = {
+			isa = PBXGroup;
+			children = (
+				485638131C28D1B75C097D1D /* App */,
+				89CC3B8E571040AF6D2BF028 /* Shared */,
+				F7CB2AA099CD7D3B5093B024 /* Widget */,
+				0447859A0D6A7BE0382E6C1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBD67E2AA53DFB8B745A135D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B496A78E182B1607CDDAC123 /* HabitDetailView.swift */,
+				61473BB8C76A08C1A0BB5565 /* HabitEditView.swift */,
+				9A9D030C3955B5A53F1C5F71 /* MainListView.swift */,
+				3A83BC42C03F42471DE50CAB /* MonthView.swift */,
+				22D14D7CB300441F10C454C3 /* PaywallView.swift */,
+				1203B0E11477DB8118C72117 /* ReorderView.swift */,
+				8CB4B6ECDFA132544BE1417A /* RootView.swift */,
+				F929F12E81F955E6EC36409A /* SettingsView.swift */,
+				9B81F2E1F2F7684FEC815E8E /* WeekView.swift */,
+				7B0103389E1DC591B6CC24BB /* YearHeatmap.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7CB2AA099CD7D3B5093B024 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				4FD8D7A837284509619856D8 /* HabitGrowWidget.entitlements */,
+				C7F91F8E1BB207F6A1E66B35 /* Info.plist */,
+				521020E045EBEB42285ED90E /* Widgets.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A1CF4D6435A0A716ABFD41F /* HabitGrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71272076560BCBEE5730AD2F /* Build configuration list for PBXNativeTarget "HabitGrow" */;
+			buildPhases = (
+				E463D18B3A850940433AC3FD /* Sources */,
+				705DDCC4522D18925F132C83 /* Resources */,
+				A2288D563E8F5DC8FCC8A977 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36AEF5778A887C5AA620A48F /* PBXTargetDependency */,
+			);
+			name = HabitGrow;
+			packageProductDependencies = (
+			);
+			productName = HabitGrow;
+			productReference = FEA57688D080E389F22CD033 /* HabitGrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7DC88A5DE2D4C97630401A6 /* HabitGrowWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB04D364550E501BE457680 /* Build configuration list for PBXNativeTarget "HabitGrowWidget" */;
+			buildPhases = (
+				06AAF4FE2E9CB5C01273F4F5 /* Sources */,
+				016AC51C1DA660C5C1AADDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HabitGrowWidget;
+			packageProductDependencies = (
+			);
+			productName = HabitGrowWidget;
+			productReference = 38481D532D1B6C345AE55DFD /* HabitGrowWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0C2461A27B4E5FADB7F2EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6A1CF4D6435A0A716ABFD41F = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					B7DC88A5DE2D4C97630401A6 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A5BF751FA2FCF5D6ACC1337D /* Build configuration list for PBXProject "HabitGrow" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A3053D4020B4086B66523E56;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0447859A0D6A7BE0382E6C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A1CF4D6435A0A716ABFD41F /* HabitGrow */,
+				B7DC88A5DE2D4C97630401A6 /* HabitGrowWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		016AC51C1DA660C5C1AADDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24D8928625377D5EE6DFCA7 /* Assets.xcassets in Resources */,
+				FA49C7F6BD27251DFBB07F4A /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705DDCC4522D18925F132C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A291262BD15929FA58BC8C2 /* AppIcon-source.svg in Resources */,
+				7E446193826E43F5FA4A9C74 /* Assets.xcassets in Resources */,
+				149C9820542CAC7A56B10E66 /* Assets.xcassets in Resources */,
+				BBA9EC598A169558CAE9DAAA /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06AAF4FE2E9CB5C01273F4F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D39AB78CAD053119262200 /* Components.swift in Sources */,
+				F9028A39D2425F555D09ADEE /* Intents.swift in Sources */,
+				F939367D979CADB350B0BA18 /* L10n.swift in Sources */,
+				82BC3ED1B5BDB17549835FFA /* Loc.swift in Sources */,
+				AB40BE45C6504C857DA9EAF2 /* Models.swift in Sources */,
+				C3FAF6BF7E6AF74304EF1964 /* Plants.swift in Sources */,
+				52EC4A0CB6110ABC5D92BE70 /* Stats.swift in Sources */,
+				8A068FF76F6387C995DFBC6A /* Theme.swift in Sources */,
+				BB76AD3A99680F527320AA5D /* TownLevel.swift in Sources */,
+				EA0863EA01A170CA6AEB8E3E /* TownSnapshotStore.swift in Sources */,
+				1B615FEC795B415BD13A7DFB /* Widgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E463D18B3A850940433AC3FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D4EEDAE346D65AC0B78071 /* Components.swift in Sources */,
+				A451DC79A492ED669D1FCE14 /* HabitDetailView.swift in Sources */,
+				C88E8B6C523FFC454AEF096D /* HabitEditView.swift in Sources */,
+				E9161377D94F21EDFBDBD0B2 /* HabitGrowApp.swift in Sources */,
+				68284A9F638E24CCD63FAC25 /* Intents.swift in Sources */,
+				027D49E618517B96CDA9045D /* L10n.swift in Sources */,
+				0F3EAAF37ACDCC01B856BE4D /* Loc.swift in Sources */,
+				5BCB9FFA189AD830DB21765C /* MainListView.swift in Sources */,
+				17B39EAE7B260F53A82CA5D1 /* Models.swift in Sources */,
+				1170998139665BFE2FACAB87 /* MonthView.swift in Sources */,
+				3164F5B55C617D8758525182 /* Notifier.swift in Sources */,
+				8EFDBEACA64648D79185BE34 /* PaywallView.swift in Sources */,
+				0A762C4E81F2E1A771EC968F /* Plants.swift in Sources */,
+				D3CFC2E9ACD370085D7F4B9A /* ProStore.swift in Sources */,
+				57281CA48C49F2A17D3D538A /* ReorderView.swift in Sources */,
+				2776D13E7124E5B1BF9692E1 /* RootView.swift in Sources */,
+				7E5BC6620B207CDE92464557 /* SettingsView.swift in Sources */,
+				5949E014F8A5037155E2B1F4 /* Stats.swift in Sources */,
+				07159855B6DE7FCE43547940 /* Theme.swift in Sources */,
+				CC881827C5F1EE9E19A271DD /* Town3DView.swift in Sources */,
+				55F967DC2860687C5BB842CD /* TownArt.swift in Sources */,
+				47224931E57D313134296BD8 /* TownLayout.swift in Sources */,
+				184FA9EBB7E78E2634051C9A /* TownLevel.swift in Sources */,
+				C85EE5BFD53D520C18C69F45 /* TownSnapshot.swift in Sources */,
+				FBE1F2CA2B315F738E80D8B4 /* TownSnapshotStore.swift in Sources */,
+				C99BAD5E56CF41F6617D7DBB /* TownToys.swift in Sources */,
+				C0C0A97ECB36EDD9F123AEFF /* TownView.swift in Sources */,
+				E90C841405E4C7A8B0CEDA26 /* TownWorld.swift in Sources */,
+				77896931E3E5F25935B455AD /* WeekView.swift in Sources */,
+				2F5399149A334E0001E77F0D /* YearHeatmap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36AEF5778A887C5AA620A48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7DC88A5DE2D4C97630401A6 /* HabitGrowWidget */;
+			targetProxy = 56D67BD5E30FD1E7B98668DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1725A64F5A7EA61385DFBE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/HabitGrowWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 5;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charonyuu.habitgrow.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		385A60C647CE6DD78F212EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIconSakura AppIconCottage AppIconJapanese AppIconForest AppIconSnow AppIconTropical AppIconNight AppIconHouseCottage AppIconHouseJapanese AppIconHouseForest AppIconHouseSnow AppIconHouseTropical AppIconHouseNight";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/HabitGrow.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Habit Grow";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charonyuu.habitgrow;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		399685DF7B36AE57E4B885DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3AEB0A366A93AF23F0958263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/HabitGrowWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 5;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charonyuu.habitgrow.widget;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5697649FAF0DFC9CBE211561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD25A95D5697753794AE2BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIconSakura AppIconCottage AppIconJapanese AppIconForest AppIconSnow AppIconTropical AppIconNight AppIconHouseCottage AppIconHouseJapanese AppIconHouseForest AppIconHouseSnow AppIconHouseTropical AppIconHouseNight";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/HabitGrow.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Habit Grow";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.charonyuu.habitgrow;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71272076560BCBEE5730AD2F /* Build configuration list for PBXNativeTarget "HabitGrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD25A95D5697753794AE2BC5 /* Debug */,
+				385A60C647CE6DD78F212EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5BF751FA2FCF5D6ACC1337D /* Build configuration list for PBXProject "HabitGrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399685DF7B36AE57E4B885DD /* Debug */,
+				5697649FAF0DFC9CBE211561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ABB04D364550E501BE457680 /* Build configuration list for PBXNativeTarget "HabitGrowWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AEB0A366A93AF23F0958263 /* Debug */,
+				1725A64F5A7EA61385DFBE83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0C2461A27B4E5FADB7F2EF4 /* Project object */;
+}
