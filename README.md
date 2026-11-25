@@ -9,7 +9,7 @@ A calm, plant-themed habit tracker for iOS. Pure SwiftUI + SwiftData, data stays
 - Interactive widgets (single habit / multiple habits)
 - Traditional Chinese / English, light / dark
 
-> 「App 開發與上架入門」課程範例專案。作者：江承祐（阿班）· Threads @your.engineer.ben
+> 「App 開發與上架入門」課程範例專案。作者：江承祐（阿班）· Instagram [@your.engineer.ben](https://www.instagram.com/your.engineer.ben/) · 作品集 [apps.app.charonyu.cc](https://apps.app.charonyu.cc/)
 > 這是一個真實在 App Store 上架流程中的 App，原始碼開放給學員學習：SwiftUI、SwiftData、Widget、StoreKit 2 一次購買、多語系、App Store 截圖自動化的實際寫法。
 
 ## 給學員：怎麼跑起來
